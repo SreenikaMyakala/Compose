@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>RTE</title>
+  </head>
+  <body>
+    <div>
+      <div
+        contenteditable="true"
+        role="textbox"
+        id="sub_main"
+        aria-placeholder="Type your message here..."
+      >
+        <p>Try selecting part of this paragraph too!</p>
+      </div>
+      <div id="buttons">
+        <button class="align_btn" data-align="left">Left Alignment</button>
+        <button class="align_btn" data-align="center">Center Alignment</button>
+        <button class="align_btn" data-align="right">Right Alignment</button>
+        <button class="align_btn" data-align="justify">
+          Justify Alignment
+        </button>
+      </div>
+    </div>
+    <script src="textAlignment.js"></script>
+  </body>
+</html>
