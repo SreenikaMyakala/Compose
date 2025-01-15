@@ -2,12 +2,12 @@
 
 ---
 
-````markdown
+````
 # Rich Text Editor
 
-A lightweight, customizable rich text editor designed for modern web applications. **Currently focused on core text editing features** with plans for advanced capabilities and extensibility in future releases.
+A lightweight, customizable rich text editor designed for modern web applications. 
+**Currently focused on core text editing features** with plans for advanced capabilities and extensibility in future releases.
 
-## Features
 
 ### Core Features
 
