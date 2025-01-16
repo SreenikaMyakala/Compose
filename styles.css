@@ -5,3 +5,19 @@
   margin-top: 100px;
   border: 2px solid black;
 }
+
+#buttons {
+  width: 100%;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.underline-text {
+  text-decoration: underline;
+}

@@ -1,5 +1,4 @@
-const textAlignTypes = ["left", "center", "right", "justify"];
-
+//text alignment function
 function alignText(alignment) {
   const selection = window.getSelection();
 
@@ -28,6 +27,7 @@ function alignText(alignment) {
   }
 }
 
+//event listeners for alignment buttons
 document.querySelectorAll(".align_btn").forEach((button) =>
   button.addEventListener("click", () => {
     const alignment = button.getAttribute("data-align");

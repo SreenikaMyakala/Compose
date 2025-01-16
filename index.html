@@ -4,10 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <title>RTE</title>
   </head>
   <body>
     <div>
+      <div id="buttons">
+        <button class="align_btn" data-align="left">
+          <i class="fa-solid fa-align-left"></i>
+        </button>
+        <button class="align_btn" data-align="center">
+          <i class="fa-solid fa-align-center"></i>
+        </button>
+        <button class="align_btn" data-align="right">
+          <i class="fa-solid fa-align-right"></i>
+        </button>
+        <button class="align_btn" data-align="justify">
+          <i class="fa-solid fa-align-justify"></i>
+        </button>
+        <button class="format_btn" data-format="strong">
+          <i class="fa-solid fa-bold"></i>
+        </button>
+        <button class="format_btn" data-format="em">
+          <i class="fa-solid fa-italic"></i>
+        </button>
+        <button class="format_btn" data-format="u">
+          <i class="fa-solid fa-underline"></i>
+        </button>
+      </div>
+        </button>
+      </div>
       <div
         contenteditable="true"
         role="textbox"
@@ -16,15 +45,8 @@
       >
         <p>Try selecting part of this paragraph too!</p>
       </div>
-      <div id="buttons">
-        <button class="align_btn" data-align="left">Left Alignment</button>
-        <button class="align_btn" data-align="center">Center Alignment</button>
-        <button class="align_btn" data-align="right">Right Alignment</button>
-        <button class="align_btn" data-align="justify">
-          Justify Alignment
-        </button>
-      </div>
     </div>
     <script src="textAlignment.js"></script>
+    <script src="textFormat.js"></script>
   </body>
 </html>
