@@ -12,6 +12,7 @@
   </head>
   <body>
     <div>
+      <!--Menu (Hover (Not impelmented)) Area buttons-->
       <div id="buttons">
         <button class="align_btn" data-align="left">
           <i class="fa-solid fa-align-left"></i>
@@ -34,9 +35,12 @@
         <button class="format_btn" data-format="u">
           <i class="fa-solid fa-underline"></i>
         </button>
-      </div>
+        <button class="hyperlink_btn">
+          <i class="fa-solid fa-link"></i>
         </button>
       </div>
+
+      <!--ContentEditable Area-->
       <div
         contenteditable="true"
         role="textbox"
@@ -45,8 +49,16 @@
       >
         <p>Try selecting part of this paragraph too!</p>
       </div>
+
+      <!--Modal for Hyperlink Section-->
+      <div class="modalHyperlink">
+        <label for="hyperlink">Link</label>
+        <input type="url" name="hyperlink" id="hyperlink" />
+        <button type="submit">Apply</button>
+      </div>
     </div>
     <script src="textAlignment.js"></script>
     <script src="textFormat.js"></script>
+    <script src="hyperlink.js"></script>
   </body>
 </html>

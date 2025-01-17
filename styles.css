@@ -10,7 +10,7 @@
   width: 100%;
 }
 
-.bold-text {
+/* .bold-text {
   font-weight: bold;
 }
 
@@ -20,4 +20,8 @@
 
 .underline-text {
   text-decoration: underline;
+} */
+
+.modalHyperlink {
+  display: none;
 }
